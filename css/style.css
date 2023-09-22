@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	background-color: black;
+}
+
+.canvas {
+	background-color: rgb(54, 167, 44);
+	border: 2px solid #ccc;
+}
+
+/* Existing styles... */
+
+/* Night mode styles */
+.night-mode {
+	background-color: #222;
+	color: #fff;
+}
+
+.night-mode .canvas {
+	background-color: #444;
+}
+
+.night-mode .canvas-grid {
+	stroke: #777;
+}
+
+.night-mode #nightModeButton {
+	background-color: #444;
+	color: #fff;
+}
